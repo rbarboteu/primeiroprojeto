@@ -5,7 +5,7 @@ public class Treino {
         Scanner leitura = new Scanner(System.in);
         int perguntaInicial;
         int medidaQuadrado;
-        double medidaDoCiruclo;
+        double medidaDoCirculo;
 
         System.out.println("Digite 1 para calcular a área do quadrado ou 2 para calcular a área do círculo");
         perguntaInicial = leitura.nextInt();
@@ -20,8 +20,8 @@ public class Treino {
         } else if (perguntaInicial == 2) {
 
             System.out.println("Digite o raio do círculo");
-            medidaDoCiruclo = leitura.nextDouble();
-            double areaCirculo = 3.14 * medidaDoCiruclo * medidaDoCiruclo;
+            medidaDoCirculo = leitura.nextDouble();
+            double areaCirculo = 3.14 * medidaDoCirculo * medidaDoCirculo;
             System.out.println("A área do círculo é: " + areaCirculo);
         }
 
